@@ -1,0 +1,46 @@
+.flex-box {
+  display: flex;
+  .flex-item {
+    flex: 1;
+  }
+}
+
+.footer-box {
+  height: 100rpx;
+}
+
+//单行换行
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+//双行换行
+.ellipsis2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.song-list {
+  .tit-bar {
+    font-size: 34rpx;
+    font-weight: 600;
+    line-height: 110rpx;
+  }
+  .more {
+    width: 150rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    text-align: center;
+    margin-top: 30rpx;
+    margin-right: 32rpx;
+    font-weight: 400;
+    font-size: 24rpx;
+    border: 2rpx solid #e6e6e6;
+    border-radius: 50rpx;
+  }
+}

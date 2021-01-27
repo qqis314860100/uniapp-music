@@ -1,0 +1,71 @@
+page {
+  font-size: 28rpx;
+  line-height: 1.5;
+  color: #2c3e50;
+  background: #fff;
+  -webkit-overflow-scrolling: touch;
+  // 使ios列表滑动更流畅
+}
+
+page,
+view,
+input,
+text,
+form,
+navigator,
+rich-text,
+picker,
+scroll-view,
+cover-view,
+open-data {
+  box-sizing: border-box;
+}
+
+rich-text,
+open-data,
+form {
+  display: block;
+}
+
+cover-view {
+  line-height: 1.5;
+  white-space: normal;
+}
+
+/* float */
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.dpn {
+  display: none;
+}
+.clearfix:after {
+  content: '.';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.cf6 {
+  color: #c7a769;
+}
+.bgf {
+  background: #fff;
+}
+.rel {
+  position: relative;
+}
+.tac {
+  text-align: center;
+}
+
+/* 隐藏滚动条 */
+::-webkit-scrollbar {
+  display: none;
+}
+button:after {
+  border: 0;
+}
